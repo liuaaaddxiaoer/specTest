@@ -13,6 +13,7 @@
 		E3FB6C111EC0526D00670BE9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E3FB6C0F1EC0526D00670BE9 /* Main.storyboard */; };
 		E3FB6C131EC0526D00670BE9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E3FB6C121EC0526D00670BE9 /* Assets.xcassets */; };
 		E3FB6C161EC0526D00670BE9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E3FB6C141EC0526D00670BE9 /* LaunchScreen.storyboard */; };
+		E3FB6C201EC057C100670BE9 /* Person.m in Sources */ = {isa = PBXBuildFile; fileRef = E3FB6C1F1EC057C100670BE9 /* Person.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,8 @@
 		E3FB6C121EC0526D00670BE9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E3FB6C151EC0526D00670BE9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		E3FB6C171EC0526D00670BE9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E3FB6C1E1EC057C100670BE9 /* Person.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Person.h; sourceTree = "<group>"; };
+		E3FB6C1F1EC057C100670BE9 /* Person.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Person.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +61,7 @@
 		E3FB6C051EC0526D00670BE9 /* specTest */ = {
 			isa = PBXGroup;
 			children = (
+				E3FB6C1D1EC057C100670BE9 /* Classes */,
 				E3FB6C091EC0526D00670BE9 /* AppDelegate.h */,
 				E3FB6C0A1EC0526D00670BE9 /* AppDelegate.m */,
 				E3FB6C0C1EC0526D00670BE9 /* ViewController.h */,
@@ -77,6 +81,15 @@
 				E3FB6C071EC0526D00670BE9 /* main.m */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		E3FB6C1D1EC057C100670BE9 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				E3FB6C1E1EC057C100670BE9 /* Person.h */,
+				E3FB6C1F1EC057C100670BE9 /* Person.m */,
+			);
+			path = Classes;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -152,6 +165,7 @@
 			files = (
 				E3FB6C0E1EC0526D00670BE9 /* ViewController.m in Sources */,
 				E3FB6C0B1EC0526D00670BE9 /* AppDelegate.m in Sources */,
+				E3FB6C201EC057C100670BE9 /* Person.m in Sources */,
 				E3FB6C081EC0526D00670BE9 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
