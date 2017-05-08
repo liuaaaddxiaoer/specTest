@@ -14,6 +14,7 @@
 		E3FB6C131EC0526D00670BE9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E3FB6C121EC0526D00670BE9 /* Assets.xcassets */; };
 		E3FB6C161EC0526D00670BE9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E3FB6C141EC0526D00670BE9 /* LaunchScreen.storyboard */; };
 		E3FB6C201EC057C100670BE9 /* Person.m in Sources */ = {isa = PBXBuildFile; fileRef = E3FB6C1F1EC057C100670BE9 /* Person.m */; };
+		E3FB6C231EC05D8E00670BE9 /* TableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = E3FB6C221EC05D8E00670BE9 /* TableViewCell.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -29,6 +30,8 @@
 		E3FB6C171EC0526D00670BE9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		E3FB6C1E1EC057C100670BE9 /* Person.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Person.h; sourceTree = "<group>"; };
 		E3FB6C1F1EC057C100670BE9 /* Person.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Person.m; sourceTree = "<group>"; };
+		E3FB6C211EC05D8E00670BE9 /* TableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TableViewCell.h; sourceTree = "<group>"; };
+		E3FB6C221EC05D8E00670BE9 /* TableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TableViewCell.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -88,6 +91,8 @@
 			children = (
 				E3FB6C1E1EC057C100670BE9 /* Person.h */,
 				E3FB6C1F1EC057C100670BE9 /* Person.m */,
+				E3FB6C211EC05D8E00670BE9 /* TableViewCell.h */,
+				E3FB6C221EC05D8E00670BE9 /* TableViewCell.m */,
 			);
 			path = Classes;
 			sourceTree = "<group>";
@@ -166,6 +171,7 @@
 				E3FB6C0E1EC0526D00670BE9 /* ViewController.m in Sources */,
 				E3FB6C0B1EC0526D00670BE9 /* AppDelegate.m in Sources */,
 				E3FB6C201EC057C100670BE9 /* Person.m in Sources */,
+				E3FB6C231EC05D8E00670BE9 /* TableViewCell.m in Sources */,
 				E3FB6C081EC0526D00670BE9 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
